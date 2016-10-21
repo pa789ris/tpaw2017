@@ -1,5 +1,5 @@
-$(document).ready(function ()) {
-    $("#validate").click(function()){
+$(document).ready(function () {
+    $("#validate").click(function(){
         if ($("#Nom").val()=""){
     $('.modal').modal('show');       //mettre focus sur le champ d'erreur
   })
@@ -12,9 +12,9 @@ $(document).ready(function ()) {
   else $('.modal').modal('show');//mettre bienvenue $nom et $prenom
   
       
-    });
+    }
 
- });
+ }
     
     
   
