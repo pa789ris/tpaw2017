@@ -11,4 +11,6 @@ $('#Nom').on('shown.bs.modal', function () {
   else $('.modal').modal('show')//mettre bienvenue $nom et $prenom
   
     }
+    
+    
   
