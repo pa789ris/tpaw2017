@@ -4,8 +4,8 @@ $(document).ready(function () {
              $('.modal-title').html("bienvenue");
             $('.modal').modal('show');       //mettre focus sur le champ d'erreur)
         }
-        else if ($("#Prenom").val()==""){
-             $('.modal-title').html("bienvenue");
+        else{
+             $('.modal-title').html(" pas bienvenue");
             $('.modal').modal('show');       //mettre focus sur le champ d'erreur)
         }
         
