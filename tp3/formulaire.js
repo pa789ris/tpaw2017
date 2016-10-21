@@ -8,6 +8,10 @@ $(document).ready(function () {
              $('.modal-title').html(" Veuiller entrer votre Prenom Mr "+$("#Nom").val());//mettre mr et extraire nom
             $('.modal').modal('show');       //mettre focus sur le champ d'erreur)
         }
+         else if ($("#date").val()=="") {
+             $('.modal-title').html(" Entrer  une date au format Veuiller entrer votre Prenom Mr "+$("#Nom").val());//mettre mr et extraire nom
+            $('.modal').modal('show');       //mettre focus sur le champ d'erreur)
+}
          else {
              $('.modal-title').html(" pas bienvenue");
             $('.modal').modal('show');       //mettre focus sur le champ d'erreur)
