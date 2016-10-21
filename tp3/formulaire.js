@@ -1,3 +1,3 @@
 $('#Nom').on('shown.bs.modal', function () {
-  if ($('#myInput').focus()
+  if ($("#Nom").val().lenght<5)
 })
