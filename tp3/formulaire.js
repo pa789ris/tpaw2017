@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function() {
     $("#validate").on('click',function(){
         
         if ($("#Nom").val()==""){
