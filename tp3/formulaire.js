@@ -5,7 +5,7 @@ $(document).ready(function () {
             $('.modal').modal('show');       //mettre focus sur le champ d'erreur)
         }
         else if ($("#Prenom").val().length<5) {
-             $('.modal-title').html(" bienvenue");
+             $('.modal-title').html(" bienvenue"+$("#Nom").val());
             $('.modal').modal('show');       //mettre focus sur le champ d'erreur)
         }
          else {
