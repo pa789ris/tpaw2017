@@ -3,7 +3,7 @@ $(document).ready(function() {
         
         if ($("#Nom").val()==""){
     $('.modal').modal('show');       //mettre focus sur le champ d'erreur)
-        }
+        });
  });
                          });
     
