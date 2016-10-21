@@ -4,10 +4,13 @@ $(document).ready(function () {
              $('.modal-title').html("bienvenue");
             $('.modal').modal('show');       //mettre focus sur le champ d'erreur)
         }
-        else{
+        else if ($("#Prenom").val().length<5) {
+             $('.modal-title').html(" bienvenue");
+            $('.modal').modal('show');       //mettre focus sur le champ d'erreur)
+        }
+         else {
              $('.modal-title').html(" pas bienvenue");
             $('.modal').modal('show');       //mettre focus sur le champ d'erreur)
         }
-        
     });
 });
