@@ -5,6 +5,6 @@ $(document).ready(function() {
     $('.modal').modal('show');       //mettre focus sur le champ d'erreur)
         });
  });
-                         });
+                         }
     
   
