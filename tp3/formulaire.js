@@ -9,7 +9,7 @@ $(document).ready(function ()) {
   else if ($("#date").val()=''){
     $('.modal').modal('show');
             }
-  else $('.modal').modal('show');/mettre bienvenue $nom et $prenom
+  else $('.modal').modal('show');//mettre bienvenue $nom et $prenom
   
       
     });
