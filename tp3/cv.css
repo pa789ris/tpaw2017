@@ -14,7 +14,7 @@ img{
 
 }
 
-body{ background-image:C:\Users\Lassie\Desktop\application web;}
+body{ background-image:C:\Users\Lassie\Desktop\application web;background-size: cover;}
 
 
 
@@ -32,7 +32,7 @@ body{ background-image:C:\Users\Lassie\Desktop\application web;}
 h1{color :DarkSlateBlue;}
 h2{color :DarkSlateBlue ;}
 	
-DarkSlateBlue 
+ 
 .imgA:hover .txtA{
 
 	display:none;
