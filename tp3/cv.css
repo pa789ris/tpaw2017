@@ -36,7 +36,7 @@ body{background: lightgrey;}
 
 }
 
-table{width:100%;border-color: DodgerBlue  ;}
+table{width:100%;border-color: DodgerBlue; border-style: double; }
 th, td {
     text-align: left;
     padding: 8px;
