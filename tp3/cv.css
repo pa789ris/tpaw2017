@@ -29,7 +29,10 @@ body{background: lightgrey;}
 	display : inline-block;
 
 }
-
+h1{color :DarkSlateBlue;}
+h2{color :DarkTurquoise ;}
+	
+DarkSlateBlue 
 .imgA:hover .txtA{
 
 	display:none;
