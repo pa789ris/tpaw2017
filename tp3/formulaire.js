@@ -29,6 +29,5 @@ $(document).ready(function () {
              $('.modal-title').html(" pas bienvenue");
            $('.modal').modal('show');       //mettre focus sur le champ d'erreur)
         }
-         $(".modal-body").html('<img src="https://maps.googleapis.com/maps/api/staticmap?center='+$("#adr").val()+'&zoom=13&size=300x300&maptype=roadmap&markers='+$("#adr").val()+'"/>');
     });
 });
