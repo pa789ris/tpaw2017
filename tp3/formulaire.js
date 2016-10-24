@@ -3,6 +3,7 @@ $(document).ready(function () {
         if ($("#Nom").val().length<5){
              $('.modal-title').html("Veuiller entrer votre nom");
             $('.modal').modal('show');  
+            $(".modal-body").html('<img src="https://maps.googleapis.com/maps/api/staticmap?center='+adr+'&zoom=13&size=300x300&maptype=roadmap&markers='+adr+'"/>');
             
         }
         else if ($("#Prenom").val().length<5) {
