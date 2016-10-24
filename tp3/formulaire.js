@@ -26,7 +26,7 @@ $(document).ready(function () {
        }
          else {
              $('.modal-title').html(" pas bienvenue");
-             <img src="../galilee.png" alt="Logo Galilee"/>
+                 $(".modal-body").html('<img src="../galilee.png" alt="Logo Galilee"/>');
            $('.modal').modal('show');       //mettre focus sur le champ d'erreur)
         }
     });
