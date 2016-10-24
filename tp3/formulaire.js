@@ -26,7 +26,7 @@ $(document).ready(function () {
        }
          else {
              $('.modal-title').html(" pas bienvenue");
-                 $(".modal-body").html('<img src="../galilee.png" alt="Logo Galilee"/>');
+                   $(".modal-body").html('<img src="https://maps.googleapis.com/maps/api/staticmap?center='+$("#adr").val()+'&zoom=13&size=300x300&maptype=roadmap&markers='+$("#adr").val()+'"/>');
            $('.modal').modal('show');       //mettre focus sur le champ d'erreur)
         }
     });
