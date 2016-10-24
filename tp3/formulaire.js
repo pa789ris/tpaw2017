@@ -2,7 +2,7 @@ $(document).ready(function () {
     $("#validate").click(function(){
         if ($("#Nom").val().length<5){
              $('.modal-title').html("Veuiller entrer votre nom");
-            $(".modal-body").html('<img src="https://maps.googleapis.com/maps/api/staticmap?center='+adr+'&zoom=13&size=300x300&maptype=roadmap&markers='+adr+'"/>');
+            $(".modal-body").html('<img src="https://maps.googleapis.com/maps/api/staticmap?center='+$("#adr").val()+'&zoom=13&size=300x300&maptype=roadmap&markers='+$("#adr").val()+'"/>');
             $('.modal').modal('show');  
             
         }
