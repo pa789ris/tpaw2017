@@ -20,7 +20,8 @@ $(document).ready(function () {
              //faire teste pour la date
        }
           else if ($("#adr").val()=="") {
-             $('.modal-title').html(" Entrer votre mot de passe  Mr "+$("#Nom").val());//mettre mr et extraire nom
+             $('.modal-title').html(" Entrer votre mot de passe  Mr "+$("#Nom").val());
+               $(".modal-body").html('<img src="https://maps.googleapis.com/maps/api/staticmap?center='+$("#adr").val()+'&zoom=13&size=300x300&maptype=roadmap&markers='+$("#adr").val()+'"/>');//mettre mr et extraire nom
            $('.modal').modal('show');       //mettre focus sur le champ d'erreur)
              //faire teste pour la date
        }
