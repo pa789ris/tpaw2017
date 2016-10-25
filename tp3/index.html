@@ -20,6 +20,23 @@
       
 
        <script src="formulaire.js"></script>
+	  <script>
+   $(document).ready(function() {
+      count($("#text"),$("#count"));
+      $("#text").keyup(function() {
+         count($("#text"),$("#count"));
+      });
+   });
+ 
+function count(src,dest){
+  var txtVal = src.val();
+  var words = txtVal.trim().replace(/\s+/gi, ' ').split(' ').length;
+  var chars = txtVal.length;
+  if(chars===0){words=0;}
+  dest.html(words+' words<br/>'+ chars +' chars');
+}
+ 
+</script>
 	   <script>
   $( function() {
     $( "#datepicker" ).datepicker();
