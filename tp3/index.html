@@ -20,23 +20,7 @@
       
 
        <script src="formulaire.js"></script>
-	  <script>
-   $(document).ready(function() {
-      count($("#text"),$("#count"));
-      $("#text").keyup(function() {
-         count($("#text"),$("#count"));
-      });
-   });
- 
-function count(src,dest){
-  var txtVal = src.val();
-  var words = txtVal.trim().replace(/\s+/gi, ' ').split(' ').length;
-  var chars = txtVal.length;
-  if(chars===0){words=0;}
-  dest.html(words+' words<br/>'+ chars +' chars');
-}
- 
-</script>
+	 
 	   <script>
   $( function() {
     $( "#datepicker" ).datepicker();
@@ -56,7 +40,7 @@ function count(src,dest){
     	<label for="Nom" class="col-sm-2 control-label">Nom</label>
 	    <div class="col-sm-10">
 	      <input type="text" class="form-control" id="Nom" placeholder="entrer votre nom">
-		  <span id="count"></span>";  
+		    
 	    </div>
 	</div>  
     <div class="form-group">
