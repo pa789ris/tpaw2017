@@ -25,28 +25,7 @@ function Validation() {
           document.getElementById('resultat').innerHTML =""
 
 	 }
-	else if (date.length < 5) {
-
-	 document.getElementById('error').innerHTML ="error date"
-
-          document.getElementById('resultat').innerHTML =""
-
-	 }
-	else if (Adresse.length < 5) {
-
-	 document.getElementById('error').innerHTML ="error Adresse"
-
-          document.getElementById('resultat').innerHTML =""
-
-	 }
 	
-	else if (Mail.length < 5) {
-
-	 document.getElementById('error').innerHTML ="error Mail"
-
-          document.getElementById('resultat').innerHTML =""
-
-	 }
 
 	 else{document.getElementById('resultat').innerHTML ="BIENVENU"
 
