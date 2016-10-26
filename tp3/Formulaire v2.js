@@ -6,7 +6,7 @@ function Validation() {
 
 	 var nom = document.getElementById('Nom').value 
 	 var prenom = document.getElementById('Prénom').value 
-	 var prenom = document.getElementById('Prénom').value
+	 
 
 	 if (nom.length < 5) {
 
