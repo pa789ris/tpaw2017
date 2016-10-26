@@ -7,8 +7,8 @@ function Validation() {
 	 var nom = document.getElementById('Nom').value 
 	 var prenom = document.getElementById('Prénom').value 
 	 var date = document.getElementById('Date de naissance').value 
-	 var Adresse = document.getElementById('Prénom').value 
-	 var Mail = document.getElementById('Prénom').value 
+	 var Adresse = document.getElementById('Adresse').value 
+	 var Mail = document.getElementById('Mail').value 
 
 	 if (nom.length < 5) {
 
