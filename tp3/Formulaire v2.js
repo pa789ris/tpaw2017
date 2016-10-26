@@ -24,7 +24,7 @@ document.getElementById('resultat').innerHTML =""
 
 	 }
 
-	 else{document.getElementById('resultat').innerHTML ="bienvenu"
+	 else{document.getElementById('resultat').innerHTML ="BIENVENU"
 
 	 document.getElementById('error').innerHTML =""}
 
