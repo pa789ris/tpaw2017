@@ -25,7 +25,7 @@ function Validation() {
 	 }
 	
 
-	 else{document.getElementById('resultat').innerHTML ="BIENVENU Mr"+$("#Nom")
+	 else{document.getElementById('resultat').innerHTML ="BIENVENU Mr"+$("#nom")
 
 	 document.getElementById('error').innerHTML =""}
 
