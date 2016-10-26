@@ -5,8 +5,10 @@
 function Validation() {
 
 	 var nom = document.getElementById('Nom').value 
-
 	 var prenom = document.getElementById('Prénom').value 
+	 var date = document.getElementById('Date de naissance').value 
+	 var Adresse = document.getElementById('Prénom').value 
+	 var Mail = document.getElementById('Prénom').value 
 
 	 if (nom.length < 5) {
 
@@ -20,7 +22,29 @@ function Validation() {
 
 	 document.getElementById('error').innerHTML ="error Prénom"
 
-document.getElementById('resultat').innerHTML =""
+          document.getElementById('resultat').innerHTML =""
+
+	 }
+	else if (date.length < 5) {
+
+	 document.getElementById('error').innerHTML ="error date"
+
+          document.getElementById('resultat').innerHTML =""
+
+	 }
+	else if (Adresse.length < 5) {
+
+	 document.getElementById('error').innerHTML ="error Adresse"
+
+          document.getElementById('resultat').innerHTML =""
+
+	 }
+	
+	else if (Mail.length < 5) {
+
+	 document.getElementById('error').innerHTML ="error Mail"
+
+          document.getElementById('resultat').innerHTML =""
 
 	 }
 
