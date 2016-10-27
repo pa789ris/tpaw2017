@@ -18,7 +18,9 @@ body{background:lightgrey;}
 
 
 
-table{background-image: url("../galilee.png";background-size: cover; )
+table{
+	background-image: url("../galilee.png"); 
+        background-size: cover;
 
 
 
