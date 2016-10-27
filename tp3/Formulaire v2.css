@@ -16,7 +16,11 @@ border: 1px solid black;
 
 body{background:lightgrey;}
 
-table{background:white;}
+table{
+	background:white;
+	border: 5px solid black;
+
+}
 
 
 
