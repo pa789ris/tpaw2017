@@ -14,12 +14,12 @@ border: 1px solid black;
 
 }
 
-body{background: lightgrey;}
+body{background-image: url("../galilee.png" alt="Logo Galilee");}
 
 
 
 table{
-background-image: url("../galilee.png" alt="Logo Galilee");
+
 
 
 }
