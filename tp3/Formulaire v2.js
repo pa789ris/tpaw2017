@@ -25,9 +25,9 @@ function Validation() {
           document.getElementById('resultat').innerHTML =""
 
 	 }
-	 else if (prenom.length < 5) {
+	 else if (date.length < 5) {
 
-	 document.getElementById('error').innerHTML ="error Prénom"
+	 document.getElementById('error').innerHTML ="error date"
 
           document.getElementById('resultat').innerHTML =""
 
