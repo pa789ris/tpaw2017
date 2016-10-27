@@ -15,6 +15,7 @@ border: 1px solid black;
 }
 
 body{ 
+    
     background-image: url("../fond ecran.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,7 +23,10 @@ body{
 }
 
 table{
-	background:white;
+	background-image: url("../logo sorbonne.png");
+	background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
 	border: 5px solid black;
 
 }
