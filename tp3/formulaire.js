@@ -6,7 +6,8 @@ $(document).ready(function () {
             
         }
         else if ($("#Prenom").val().length<5) {
-             $('.modal-title').html(" Veuiller entrer votre Prenom Mr "+$("#Nom").val());//mettre mr et extraire nom
+             $('.modal-title').html(" Veuiller entrer votre Prenom Mr:  "+$("#Nom").val());//mettre mr et extraire nom
+             $(".modal-body").html(" Veuiller entrer votre Prenom Mr:  "+$("#Nom").val());
             $('.modal').modal('show');      //mettre focus sur le champ d'erreur)
         }
          else if ($("#date").val()=="") {
