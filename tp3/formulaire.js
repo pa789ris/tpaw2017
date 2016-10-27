@@ -2,6 +2,7 @@ $(document).ready(function () {
     $("#validate").click(function(){
         if ($("#Nom").val().length<5){
              $('.modal-title').html("Veuiller entrer votre nom");
+            $(".modal-body").html(" Veuiller remplir tousles champs svp");
             $('.modal').modal('show');  
             
         }
