@@ -6,6 +6,8 @@ function Validation() {
 
 	 var nom = document.getElementById('Nom').value 
 	 var prenom = document.getElementById('Prénom').value 
+	 var date = document.getElementById('Date de naissance').value 
+	
 	 
 
 	 if (nom.length < 5) {
