@@ -14,7 +14,11 @@ border: 1px solid black;
 
 }
 
-body{background:lightgrey;}
+body{ 
+    background-image: url("../galilee.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 table{
 	background:white;
