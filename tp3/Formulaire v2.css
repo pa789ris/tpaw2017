@@ -21,6 +21,7 @@ body{background:lightgrey;}
 table{
 	background-image: url("../galilee.png"); 
         background-size: cover;
+	border: 2px solid darkgray;
 
 
 
