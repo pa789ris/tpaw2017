@@ -14,11 +14,11 @@ border: 1px solid black;
 
 }
 
-body{background:lightgrey}
+body{background:lightgrey;}
 
 
 
-table{background-image: url("../galilee.png")
+table{background-image: url("../galilee.png";background-size: cover; )
 
 
 
