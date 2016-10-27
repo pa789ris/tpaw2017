@@ -2,13 +2,13 @@ $(document).ready(function () {
     $("#validate").click(function(){
         if ($("#Nom").val().length<5){
              $('.modal-title').html("Veuiller entrer votre nom");
-            $(".modal-body").html(" Veuiller remplir tousles champs svp");
+            $(".modal-body").html(" Veuiller remplir tous les champs svp");
             $('.modal').modal('show');  
             
         }
         else if ($("#Prenom").val().length<5) {
-             $('.modal-title').html(" Veuiller entrer votre Prenom Mr:  "+$("#Nom").val());//mettre mr et extraire nom
-             $(".modal-body").html(" Veuiller entrer votre Prenom Mr:  "+$("#Nom").val());
+             $('.modal-title').html(" Mr:  "+$("#Nom").val());//mettre mr et extraire nom
+             $(".modal-body").html(" Veuiller entrer votre Prenom");
             $('.modal').modal('show');      //mettre focus sur le champ d'erreur)
         }
          else if ($("#date").val()=="") {
