@@ -1,23 +1,137 @@
 <!doctype html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>TP5</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+<html>
+
+  <head>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
         
-        <!-- Code à dé-commenter si besoin de fichier CSS ou JS -->
-        <!--<link rel="stylesheet" href="style.css">-->
-        <!--<script src="main.js"></script>-->
-    </head>
-    <body>        
-        <h1>TP5</h1>
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-        <img src="../galilee.png" alt="Logo Galilee"/>
-    </body>
-</html>
+
+         <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+        <link rel="stylesheet" href="/resources/demos/style.css">
+
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+      
+
+       <script src="formulaire.js"></script>
+
+	<style>
+body {
+    background-image: url("../galilee.png");
+    background-repeat: no-repeat;
+}
+table{
+	background:white; 
+	border: 2px solid Blue;
+}		
+</style>  
+	  
+	  
+	 </head>
+
+  <body > 
+<ol class="breadcrumb">
+    <li><a href="https://www.univ-paris13.fr" target="_blank"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+  <li><a href="http://www.w3schools.com/bootstrap/bootstrap_ref_comp_glyphs.asp" target="_blank">Membres</a></li> 
+  <li class="active">Validation du profil</a></li>
+</ol>
+	  
+	    
+	   
+<div class="container">
+   <h1><b>TP AW - Formulaire v2</b></h1>
+<form class="form-horizontal">
+	
+    <div class="form-group">
+    	<label for="Nom" class="col-sm-2 control-label">Nom</label>
+	    <div class="col-sm-10">
+	      <input type="text" class="form-control" id="Nom" placeholder="entrer votre nom">
+		    
+	    </div>
+	</div>  
+    <div class="form-group">
+    <label for="Prenom" class="col-sm-2 control-label">Prenom</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="Prenom" placeholder="entrer votre prenom">
+    </div> 
+	</div>
+	    
+    <div class="form-group">
+    <label for="datepicker" class="col-sm-2 control-label">date de naissance</label>
+    <div class="col-sm-10">
+      <input type="date" class="form-control" id="datepicker" placeholder="date de naissance">
+	    
+	     <select id="format">
+    <option value="mm/dd/yy"> mm/dd/yy</option>
+   
+  </select> 
+	    
+	    
+    </div>    
+	</div>
+	 <div class="form-group">
+    <label for="adr" class="col-sm-2 control-label">adresse</label>
+    <div class="col-xs-6"> <input type="text" class="form-control" id="adr" placeholder="adresse"></div>
+	<button type="button" onclick="beta()">
+		<span class="glyphicon glyphicon-search"></span>GPS </button>
+	</div>
+    
+
+	
+	    
+<div class="form-group has-success has-feedback">
+	<label for="Email" class="col-sm-2 control-label">Email</label>
+  <div class="input-group">
+    <span class="input-group-addon">@</span>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="Email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" /> 
+    </div>
+	</div>
+	</div>
+	    
+ 
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Remember me
+        </label>
+      </div>
+  </div>
+ 
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <h1>My First Google Map</h1>
+
+<div id="map">My map will go here</div>
+      <button type="button" class="btn btn-primary btn-lg btn-block" id="validate" onclick="function()">
+	     <span class="glyphicon glyphicon-ok"></span> Valider</button>
+	   
+    </div>
+  </div>
+	
+</form>  
+	
+	
+
+
+
+
+
+<form>
+  <textarea id="Nom">test</textarea>
+</form>
+
+<div id="legende" class="insuffisant"></div>
+
+ 
+	
+	  
+		 </body>
+	</html>
