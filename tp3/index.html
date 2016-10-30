@@ -67,11 +67,30 @@ Ducksburg</textarea>
 
 <button type="button" onclick="myFunction()">Try it</button>
 
-<script>
-function myFunction() {
-    document.getElementById("myTextarea").value = "Fifth Avenue, New York City";
-}
-</script>    
+<script type="text/javascript">
+  //Attendre que le document soit chargé
+  $(document).ready(function(){
+   
+    //La fonction s'active sur l'évènement keydown dans la zone de texte
+    $("#Nom").keydown(function(limit) {
+	    
+      //Définir la limite à atteindre
+      var limit = "10";
+
+      //Récupérer le nombre de caractères dans la zone de texte
+      var currlength = $(this).val().length;
+
+      //Afficher un texte de légende en fonction du nombre de caractères
+      if(currlength >= limit){
+        $("#legende").removeClass("insuffisant").addClass("suffisant").html("Vous avez saisi " + currlength + " caractères sur " + limit + ", c'est suffisant, mais si vous êtes inspiré, vous pouvez continuer.");
+      }
+      else{
+        $("#legende").removeClass("suffisant").addClass("insuffisant").html("Vous avez saisi " + currlength + " caractères sur " + limit + ", c'est encore trop peu.");
+      }
+
+    });
+  });
+</script>   
 	    </div>
 	</div>  
     <div class="form-group">
