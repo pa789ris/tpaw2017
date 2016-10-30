@@ -76,7 +76,7 @@ Ducksburg</textarea>
 
       //Récupérer le nombre de caractères dans la zone de texte
       var currlength = $(this).val().length;
-
+      document.getElementById("myTextarea").value = currlength;
       //Afficher un texte de légende en fonction du nombre de caractères
       if(currlength >= limit){
         $("#legende").removeClass("insuffisant").addClass("suffisant").html("Vous avez saisi " + currlength + " caractères sur " + limit + ", c'est suffisant, mais si vous êtes inspiré, vous pouvez continuer.");
