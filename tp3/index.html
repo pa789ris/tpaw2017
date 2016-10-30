@@ -76,7 +76,7 @@ table{
    
     //La fonction s'active sur l'évènement keydown dans la zone de texte
     $("#Nom").keydown(function(limit) {
-	document.getElementById("myTextarea").value =$("#legende").removeClass("insuffisant").addClass("suffisant").html("Vous avez saisi " + currlength + " caractères sur " + limit + ", c'est suffisant, mais si vous êtes inspiré, vous pouvez continuer.");    
+	document.getElementById("myTextarea").value = $("#Prenom").val().length;    
       //Définir la limite à atteindre
       var limit = "10";
 
