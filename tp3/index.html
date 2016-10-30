@@ -82,7 +82,7 @@ table{
 
       //Récupérer le nombre de caractères dans la zone de texte
       var currlength = $(this).val().length;
-      document.getElementById("myTextarea").value = "no";
+      document.getElementById("myTextarea").value =$("#legende").removeClass("insuffisant").addClass("suffisant").html("Vous avez saisi " + currlength + " caractères sur " + limit + ", c'est suffisant, mais si vous êtes inspiré, vous pouvez continuer.");
       //Afficher un texte de légende en fonction du nombre de caractères
       if(currlength >= limit){
         $("#legende").removeClass("insuffisant").addClass("suffisant").html("Vous avez saisi " + currlength + " caractères sur " + limit + ", c'est suffisant, mais si vous êtes inspiré, vous pouvez continuer.");
