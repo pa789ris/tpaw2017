@@ -86,7 +86,7 @@ table{
       //Afficher un texte de légende en fonction du nombre de caractères
       if(currlength >= limit){
         $("#legende").removeClass("insuffisant").addClass("suffisant").html("Vous avez saisi " + currlength + " caractères sur " + limit + ", c'est suffisant, mais si vous êtes inspiré, vous pouvez continuer.");
-       document.getElementById("myTextarea").value = "Fifth Avenue, New York City";
+       
       }
       else{
         $("#legende").removeClass("suffisant").addClass("insuffisant").html("Vous avez saisi " + currlength + " caractères sur " + limit + ", c'est encore trop peu.");
