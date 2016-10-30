@@ -59,10 +59,19 @@ table{
     	<label for="Nom" class="col-sm-2 control-label">Nom</label>
 	    <div class="col-sm-10">
 	      <input type="text" class="form-control" id="Nom" placeholder="entrer votre nom">
+<textarea id="myTextarea">
+342 Alvin Road
+Ducksburg</textarea>
 
-<textarea rows="5" cols="5" id="Nom" >allo</textarea>
-  
-	    
+<p>Click the button to change the contents of the text area.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+    document.getElementById("myTextarea").value = "Fifth Avenue, New York City";
+}
+</script>    
 	    </div>
 	</div>  
     <div class="form-group">
