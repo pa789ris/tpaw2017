@@ -18,7 +18,7 @@ $(document).ready(function () {
              //faire teste pour la date
        }
          
-          else if ($("#adr").val().lenght<5) {
+          else if ($("#adr").val().length<5) {
             $('.modal-title').html(""+$("#Nom").val());
            $(".modal-body").html(" Veuiller entrer une adresse valide");
            $('.modal').modal('show');       //mettre focus sur le champ d'erreur)
