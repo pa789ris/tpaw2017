@@ -49,3 +49,5 @@ function Validation() {
 	 else{document.getElementById('resultat').innerHTML ="BIENVENU"
 
 document.getElementById('error').innerHTML =""}
+	
+}
