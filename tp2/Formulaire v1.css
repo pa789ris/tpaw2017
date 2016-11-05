@@ -1,0 +1,33 @@
+#error{background: pink;
+
+border: 1px solid black;
+
+
+
+}
+
+#resultat{
+
+	background: lightgreen;
+
+	border: black;
+
+}
+
+body{ 
+    
+    background-image: url("../fond ecran.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+table{
+	background-image: url("../logo sorbonne.png");
+	background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+	border: 5px solid black;
+
+}
+
