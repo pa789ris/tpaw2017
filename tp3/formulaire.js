@@ -34,7 +34,7 @@ $(document).ready(function () {
         
          else {
              $('.modal-title').html(" Bienvenue   "+$("#Nom").val());
-                  $('.modal-body').html('<p>vous etes neee le    ' +$("#datepicker").val()+ ' et vous habitez : <br/> <a href="https://developers.google.com/maps/documentation/static-maps/" target="_blank"> <img src="paris.png' + $("#adr").val() + '&markers=' + $("#adr").val() + '&size=640x400"/> </a> </p>')
+                  $('.modal-body').html('<p>vous etes neee le    ' +$("#datepicker").val()+ ' et vous habitez : <br/> <a href="https://developers.google.com/maps/documentation/static-maps/" target="_blank"> <img src="paris.png"/> </a> </p>')
             $('.modal').modal('show');
            $('.modal').modal('show');       //mettre focus sur le champ d'erreur)
         }
