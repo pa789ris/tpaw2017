@@ -34,7 +34,7 @@ $(document).ready(function () {
         
          else {
              $('.modal-title').html(" Bienvenue   "+$("#Nom").val());
-                  $('.modal-body').html('Votre nom :   '+'<br/>Votre prenom :   '+ '<br/>Vous etes nee le :   ' +$("#datepicker").val()+ '<br/>Vous habitez :   '+'<br/>Votre email :   ')
+                  $('.modal-body').html('Votre nom :   '+$("#nom").val()+'<br/>Votre prenom :   '+$("#prenom").val()+ '<br/>Vous etes nee le :   ' +$("#datepicker").val()+ '<br/>Vous habitez :   '+$("#adr").val()+'<br/>Votre email :   '+$("#Email").val())
             $('.modal').modal('show');
            $('.modal').modal('show');       //mettre focus sur le champ d'erreur)
         }
