@@ -1,4 +1,4 @@
-var v=new date();
+ 
 $(document).ready(function () {
     $("#validate").click(function(){
         if ($("#Nom").val().length<5){
@@ -34,7 +34,7 @@ $(document).ready(function () {
         
          else {
              $('.modal-title').html(" Bienvenue   "+$("#Nom").val());
-                  $('.modal-body').html(v+'<p>vous etes nee le 20/02/1993 et vous habitez : <br/> <a href="https://developers.google.com/maps/documentation/static-maps/"> <img src="https://maps.googleapis.com/maps/api/staticmap?center=' + $("#adr").val() + '&markers=' + $("#adr").val() + '&size=640x400"/> </a> </p>')
+                  $('.modal-body').html(date+'<p>vous etes nee le 20/02/1993 et vous habitez : <br/> <a href="https://developers.google.com/maps/documentation/static-maps/"> <img src="https://maps.googleapis.com/maps/api/staticmap?center=' + $("#adr").val() + '&markers=' + $("#adr").val() + '&size=640x400"/> </a> </p>')
            $('.modal').modal('show');       //mettre focus sur le champ d'erreur)
         }
     });
