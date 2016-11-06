@@ -5,7 +5,7 @@ $(document).ready(function () {
             $('.modal').modal('show');
         }
         else {
-            $('.modal-body').html('<p>vous etes nee le 20/02/1993 et vous habitez : <br/> <a href="https://developers.google.com/maps/documentation/static-maps/" target="_blank"> <img src="https://maps.googleapis.com/maps/api/staticmap?center=' + $("#inputEmail3").val() + '&markers=' + $("#inputEmail3").val() + '&size=640x400"/> </a> </p>')
+            $('.modal-body').html('<p>Vous etes nee le 20/02/1993 et vous habitez : <br/> <a href="https://developers.google.com/maps/documentation/static-maps/" target="_blank"> <img src="https://maps.googleapis.com/maps/api/staticmap?center=' + $("#inputEmail3").val() + '&markers=' + $("#inputEmail3").val() + '&size=640x400"/> </a> </p>')
             $('.modal').modal('show');
         }
     });
