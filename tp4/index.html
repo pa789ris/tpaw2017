@@ -247,10 +247,46 @@ var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 </script>
 
 
+<div id="result"></div>
+
+<script>
+// Check browser support
+if (typeof(Storage) !== "undefined") {
+    // Store
+    localStorage.setItem("Nom", $("#Nom").val());
+    localStorage.setItem("Prenom", $("#Prenom").val());
+    localStorage.setItem("Date de naissance", $("#date").val());
+    localStorage.setItem("Adresse", $("#adr").val());
+    localStorage.setItem("Email", $("#Email").val());
+    // Retrieve
+    document.getElementById("result").innerHTML = localStorage.getItem("Nom")+" "
++localStorage.getItem("Prenom")+" "+localStorage.getItem("Date de naissance")+" "+
+localStorage.getItem("Adresse")+" "+localStorage.getItem("Email")
+;
+} else {
+    document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
+}
+</script>
+<script>
+function clickCounter() {
+    if(typeof(Storage) !== "undefined") {
+        if (sessionStorage.clickcount) {
+            sessionStorage.clickcount = Number(sessionStorage.clickcount)+1;
+        } else {
+            sessionStorage.clickcount = 1;
+        }
+        document.getElementById("result").innerHTML = "Bravo! Le Formulaire est sauvegardé " + sessionStorage.clickcount + " time(s) in this session.";
+    } else {
+        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+    }
+}
+</script>
+
+<p><button onclick="function()" type="button">Vos informations</button></p>
+
 
 <div id="legende" class="insuffisant"></div>
 
- 
 	
 	  
 		 </body>
