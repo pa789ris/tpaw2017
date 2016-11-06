@@ -1,4 +1,4 @@
-var v=new date()
+var v=new date();
 $(document).ready(function () {
     $("#validate").click(function(){
         if ($("#Nom").val().length<5){
