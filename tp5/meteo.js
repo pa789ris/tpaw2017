@@ -19,7 +19,7 @@ funtion searchCity(_city){
        var icon = responseJSON.weather[0].icon; 
        var temp = responseJSON.weather.main;
        var humidity = responseJSON.main.humidity;
-       var cloud = responseJSON. Cloudiness; 
+       var cloud = responseJSON.cloudiness; 
        var wind = responseJSON.wind.speed; 
        
      
@@ -28,7 +28,7 @@ funtion searchCity(_city){
        document.getElementById('result2').innerHTML =temp;
        document.getElementById('result3').innerHTML =humidity;
        document.getElementById('result4').innerHTML =cloud;
-       document.getElementById('result5').innerHTML =wind
+       document.getElementById('result5').innerHTML =wind;
     
        
 }else{
