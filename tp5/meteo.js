@@ -17,11 +17,12 @@ function searchCity(_city){
      if (request.status >=200 && request.status < 400) {
         //Sucess!
        var responseJSON = JSON.parse(request.responseText);
-       var icon = responseJSON.weather[0].icon; 
+       
        var temp = responseJSON.weather.main;
        var humidity = responseJSON.main.humidity;
        var cloud = responseJSON.cloudiness; 
        var wind = responseJSON.wind.speed; 
+	var icon = responseJSON.weather[0].icon;      
        
      
        
