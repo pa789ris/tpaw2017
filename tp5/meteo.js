@@ -26,7 +26,7 @@ function searchCity(_city){
        
      
        
-       document.getElementById('icon').src ="http://openweathermap.org/img/w/"+icon+".png";
+      // document.getElementById('icon').src ="http://openweathermap.org/img/w/"+icon+".png";
        document.getElementById('result2').innerHTML =temp;
        document.getElementById('result3').innerHTML =humidity;
        document.getElementById('result4').innerHTML =cloud;
