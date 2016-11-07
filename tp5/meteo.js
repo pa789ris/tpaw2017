@@ -1,5 +1,6 @@
 window.onload=function(){
-  document.getElementById("searchCity").addEventListener("submit",function(){
+  document.getElementById("searchCity").addEventListener("submit",function(event){
+    event.preventeventDefault;
     var city=  document.getElementById("city").value;
     searchCity(city);
   });
