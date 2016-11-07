@@ -22,6 +22,12 @@ funtion searchCity(_city){
        var cloud = responseJSON. Cloudiness; 
        var wind = responseJSON.wind.speed; 
        
+       document.getElementById('result1').innerHTML icon;
+       document.getElementById('result2').innerHTML =temp;
+       document.getElementById('result3').innerHTML =humidity;
+       document.getElementById('result4').innerHTML =cloud;
+       document.getElementById('result5').innerHTML =wind
+    
        
 }else{
 }
