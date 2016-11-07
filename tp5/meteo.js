@@ -16,7 +16,7 @@ funtion searchCity(_city){
      if (request.status >=200 && request.status < 400) {
         //Sucess!
        var responseJSON = JSON.parse(request.responseText);
-       var icon = responseJSON.weather.icon; 
+       var icon = responseJSON.weather[0].icon; 
        var temp = responseJSON.weather.main;
        var humidity = responseJSON.main.humidity;
        var cloud = responseJSON. Cloudiness; 
@@ -24,7 +24,7 @@ funtion searchCity(_city){
        
      
        
-       document.getElementById('result1').innerHTML =icon;
+       document.getElementById('icon').src ="http://openweathermap.org/img/w/"+icon+".png";
        document.getElementById('result2').innerHTML =temp;
        document.getElementById('result3').innerHTML =humidity;
        document.getElementById('result4').innerHTML =cloud;
