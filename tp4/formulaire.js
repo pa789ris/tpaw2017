@@ -60,7 +60,7 @@ function showPosition(position) {
     $("#adr").val(latlon);
 
     var img_url = "https://maps.googleapis.com/maps/api/staticmap?center="+latlon+"&zoom=14&size=400x300&sensor=false";
-    document.getElementById("adr").innerHTML = "<img src='"+img_url+"'>";
+    document.getElementById("gps").innerHTML = "<img src='"+img_url+"'>";
 }
 
 function showError(error) {
