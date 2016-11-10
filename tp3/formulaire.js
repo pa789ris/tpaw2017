@@ -52,7 +52,7 @@ function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition, showError);
     } else {
-        document.getElementById("demo").innerHTML = "Geolocation is not supported by this browser.";
+        document.getElementById("adr").innerHTML = "Geolocation is not supported by this browser.";
     }
 }
 
