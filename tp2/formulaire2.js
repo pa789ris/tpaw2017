@@ -5,5 +5,13 @@ function valider(){
  
    if(nom.lenght<5){
       document.getElementById('error').innerHTML="error nom"
+    
+       document.getElementById('resultat').innerHTML =""
+      }
+   
+if(prenom.lenght<5){
+      document.getElementById('error').innerHTML="error prenom"
+ 
+      document.getElementById('resultat').innerHTML =""
       }
       }
