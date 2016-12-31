@@ -2,10 +2,113 @@ $(document).ready(function () {
     $("#validate").click(function(){
         if ($("#nom").val().length<5){
              $('.modal-title').html("Veuiller entrer votre nom");
-            $(".modal-body").html(" Veuiller remplir tous les champs svp");
+            $('.modal-body').html(" Veuiller remplir tous les champs svp");
             $('.modal').modal('show');  
             
         }
+        
+        
+      $(document).ready(function (){
+          $("#validate").click(function(){
+              else if ($("#prenom").val().length<5){(
+                  $('.modal-title').html("entrer prenom");
+                  $('.modal-body').html(" "+$("#nom"));
+                                                   }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         else if ($("#Prenom").val().length<5) {
              $('.modal-title').html(" "+$("#Nom").val());//mettre mr et extraire nom
              $(".modal-body").html(" Veuiller entrer votre Prenom");
