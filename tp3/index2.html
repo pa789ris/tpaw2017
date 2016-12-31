@@ -16,7 +16,7 @@
 
       
 
-       <script src="formulaire.js"></script>
+       <script src="formulaire2.js"></script>
       
          <script>
   $( function() {
@@ -57,7 +57,14 @@
              <select>
                    <option value="mm/dd/yy"> mm/dd/yy</option>
              </select>
-                 
+        
+	 <div class="form-group">
+    <label for="adr" class="col-sm-2 control-label">adresse</label>
+    <div class="col-xs-6"> <input type="text" class="form-control" id="adr" placeholder="adresse"></div>
+	<button type="button" id="gps" value="GPS" onclick="getLocation();" >
+		<span class="glyphicon glyphicon-search"></span>GPS </button>
+
+</div>     
        <button type="button" class="btn btn-primary btn-lg btn-block" id="validate" data-target="#myModal" onclick="funtion()">
              valider</button>
                  
