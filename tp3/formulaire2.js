@@ -18,12 +18,8 @@ $(document).ready(function () {
         }
         
         
-        else if ($("#datepicker").val()==""){
-            $('.modal-title').html(""+$("#nom").val());
-          $('.modal-body').html(""+$("enter date");
-          $('.modal').modal('show');
-                                   }
-         else if ($("#date").val()=="") {
+
+         else if ($("#datepicker").val()=="") {
              $('.modal-title').html(""+$("#Nom").val());//mettre mr et extraire nom
             $(".modal-body").html(" Veuiller entrer votre date de naissance"); 
             $('.modal').modal('show');       //mettre focus sur le champ d'erreur)
@@ -31,17 +27,12 @@ $(document).ready(function () {
        }
          
           else if ($("#adr").val()=="") {
-            $('.modal-title').html(""+$("#Nom").val());
+            $('.modal-title').html(""+$("#nom").val());
            $(".modal-body").html(" Veuiller entrer une adresse valide");
            $('.modal').modal('show');       //mettre focus sur le champ d'erreur)
              //faire teste pour la date
        }
-         else if ($("#Email").val()=="") {
-            $('.modal-title').html(" "+$("#Nom").val());//mettre mr et extraire nom
-           $(".modal-body").html(" Veuiller entrer votre mail");   
-           $('.modal').modal('show');     //mettre focus sur le champ d'erreur)
-             //faire teste pour la date
-       }
+      
         
          else {
              $('.modal-title').html(" Bienvenue   "+$("#Nom").val());
