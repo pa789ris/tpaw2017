@@ -42,7 +42,7 @@ $(document).ready(function () {
         }
         
          else {
-             $('.modal-title').html(" Bienvenue   "+$("#Nom").val());
+             $('.modal-title').html(" Bienvenue   "+$("#nom").val());
           $('.modal-body').html('<p>vous etes neee le    ' +$("#datepicker").val()+ ' et vous habitez : <br/>  </p> ')      
           $('.modal-maps').html(" <img src='https://maps.googleapis.com/maps/api/staticmap?center="+$("#adr").val()+"&zoom=16&size=400x200&path=weight:3%7Ccolor:blue%7Cenc:{coaHnetiVjM??_SkM??~R&key=AIzaSyCmQS716Lawj3T_dgBVlj_eXZ33-CrcdCY'/></br></br>"+$("#adr").val());
           $('.modal').modal('show');
