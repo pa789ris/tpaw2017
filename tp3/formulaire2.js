@@ -20,7 +20,7 @@ $(document).ready(function () {
         
 
          else if ($("#datepicker").val()=="") {
-             $('.modal-title').html(""+$("#Nom").val());//mettre mr et extraire nom
+             $('.modal-title').html(""+$("#nom").val());//mettre mr et extraire nom
             $(".modal-body").html(" Veuiller entrer votre date de naissance"); 
             $('.modal').modal('show');       //mettre focus sur le champ d'erreur)
              //faire teste pour la date
@@ -33,6 +33,13 @@ $(document).ready(function () {
              //faire teste pour la date
        }
       
+        
+        else{
+            $('.modal-title').html("bienvenue"+" "+$("#nom").val());
+            $('.modal-body').html("date de naissance    "+$("#datepicker").val()+"   adresse   </br>")
+           $('.modal-maps').html(" <img src='https://maps.googleapis.com/maps/api/staticmap?center="+$("#adr").val()+"&zoom=16&size=400x200&path=weight:3%7Ccolor:blue%7Cenc:{coaHnetiVjM??_SkM??~R&key=AIzaSyCmQS716Lawj3T_dgBVlj_eXZ33-CrcdCY'/></br></br>"+$("#adr").val());
+            $('.modal').modal('show');
+        }
         
          else {
              $('.modal-title').html(" Bienvenue   "+$("#Nom").val());
