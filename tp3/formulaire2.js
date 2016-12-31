@@ -14,7 +14,15 @@ $(document).ready(function () {
              $('.modal-title').html(" "+$("#nom").val());//mettre mr et extraire nom
              $(".modal-body").html(" Veuiller entrer votre Prenom");
             $('.modal').modal('show');      //mettre focus sur le champ d'erreur)
+            
         }
+        
+        
+        else if ($("#datepicker").val()==""){
+            $('.modal-title').html(""+$("#nom").val());
+          $('.modal-body').html(""+$("enter date");
+          $('.modal').modal('show');
+                                   }
          else if ($("#date").val()=="") {
              $('.modal-title').html(""+$("#Nom").val());//mettre mr et extraire nom
             $(".modal-body").html(" Veuiller entrer votre date de naissance"); 
