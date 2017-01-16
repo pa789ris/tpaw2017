@@ -14,6 +14,8 @@
     </div>
   </div>
   <div ng-if="meteo">
+    
+    
 {{meteo.name}}
 <img src="http://openweathermap.org/img/w/{{meteo.weather[0].icon}}.png" />
 <h3> {{meteo.main.temp | number:0}}°</h3>
