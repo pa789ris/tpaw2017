@@ -1,7 +1,7 @@
 
-<form id="searchCity">
-<center>
 <div class="container">
+<form id="searchCity">
+
 <div class="row">
   <div class="col-lg-offset-3 col-lg-6">
     <div class="input-group">
@@ -13,10 +13,9 @@
       <span class="input-group-btn">
         <button class="btn btn-primary" type="button" ng-click="recherche()">Recherche</button>
       </span>
- <div>
-   <div>
-  <div ng-if="meteo">
-    <div>
+
+  <div ng-if="meteo"> 
+  
    
 {{meteo.name}}
 <img src="http://openweathermap.org/img/w/{{meteo.weather[0].icon}}.png" />
@@ -26,6 +25,7 @@
 Nice
 <p ng-if="errorMsg"> {{errorMsg}} 
   </p>
-</div>
+
     </form>
     
+</div>
