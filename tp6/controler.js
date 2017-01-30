@@ -4,7 +4,7 @@ meteoControllers.controller('MainController', ['$scope', '$http',
 	function($scope, $http) {
 		$scope.recherche = function() {
 			/* appel AJAX à l’API openweathermap */
-			$http.get('https://demo.bilelz.fr/owmap/forecast/?q='+$scope.city+'&units=metric&appid=84b1ad7d5c74af6f4a273abe6e580333')
+			$http.get('https://demo.bilelz.fr/owmap/?q='+$scope.city+'&units=metric&appid=84b1ad7d5c74af6f4a273abe6e580333')
 				.success(function(data) {
 					/* on met dans l’objet ​ meteo les données retournées
 					par openweathermap */
