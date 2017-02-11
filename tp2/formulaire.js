@@ -46,7 +46,7 @@ function Validation() {
 
 	 }
 
-	 else{document.getElementById('resultat').innerHTML ="BIENVENU" +document.getElementById('Nom').value 
+	 else{document.getElementById('resultat').innerHTML ="BIENVENU" +"    " +document.getElementById('Nom').value 
 
 document.getElementById('error').innerHTML =""}
 	
